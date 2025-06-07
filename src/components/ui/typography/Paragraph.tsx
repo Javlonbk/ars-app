@@ -1,0 +1,16 @@
+import React from "react";
+
+interface ParagraphProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+const Paragraph: React.FC<ParagraphProps> = ({ children, className = "" }) => {
+  return (
+    <p className={`text-dark text-lg leading-relaxed mb-4 ${className}`}>
+      {children}
+    </p>
+  );
+};
+
+export default Paragraph;
