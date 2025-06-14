@@ -1,12 +1,14 @@
 import React from "react";
 import Heading from "../ui/typography/Heading";
 import Paragraph from "../ui/typography/Paragraph";
+import { useTranslation } from "react-i18next";
 
 const Location: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <section id="contact" className="py-16 px-6 bg-secondary text-center">
-      <Heading level={2}>Our Location</Heading>
-      <Paragraph>Serving Tashkent and surrounding areas</Paragraph>
+      <Heading level={2}>{t(`location.heading`)}</Heading>
+      <Paragraph className="">{t("location.paragraph")}</Paragraph>
       <iframe
         title="Google Map"
         className="w-full h-64 md:h-96 rounded-xl shadow"

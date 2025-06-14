@@ -1,39 +1,40 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { FaWrench, FaSyncAlt, FaSnowflake } from "react-icons/fa";
-import Card from "./Card";
-
-const services = [
-  {
-    title: "AC Installation",
-    description:
-      "We provide expert installation of all types of air conditioning systems, ensuring maximum performance and energy efficiency from day one.",
-    icon: FaSnowflake,
-  },
-  {
-    title: "AC Repair",
-    description:
-      "Our technicians quickly diagnose and repair issues to restore your cooling system to peak condition, no matter the brand or model.",
-    icon: FaWrench,
-  },
-  {
-    title: "AC Maintenance",
-    description:
-      "Regular servicing helps prevent costly breakdowns and extends the life of your AC. We offer thorough checkups and tune-ups.",
-    icon: FaSyncAlt,
-  },
-];
+import ServiceCard from "./ServiceCard";
 
 const Services: React.FC = () => {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      title: t("services.items.0.title"),
+      description: t("services.items.0.description"),
+      icon: FaSnowflake,
+    },
+    {
+      title: t("services.items.1.title"),
+      description: t("services.items.1.description"),
+      icon: FaWrench,
+    },
+    {
+      title: t("services.items.2.title"),
+      description: t("services.items.2.description"),
+      icon: FaSyncAlt,
+    },
+  ];
   return (
     <section id="services" className="py-16 px-6 bg-white text-center">
-      <h3 className="text-3xl font-bold text-primary mb-10">Our Services</h3>
+      <h3 className="text-3xl font-bold text-primary mb-10">
+        {t("services.heading")}
+      </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {services.map((service, index) => (
-          <Card
+        {features.map((item, index) => (
+          <ServiceCard
             key={index}
-            icon={service.icon}
-            title={service.title}
-            description={service.description}
+            icon={item.icon}
+            title={item.title}
+            description={item.description}
           />
         ))}
       </div>

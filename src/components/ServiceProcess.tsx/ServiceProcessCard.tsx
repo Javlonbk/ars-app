@@ -1,7 +1,7 @@
 import React from "react";
 import type { IconType } from "react-icons";
 
-interface CardProps {
+interface ServiceProcessCardProps {
   title: string;
   description: string;
   icon: IconType;
@@ -9,7 +9,7 @@ interface CardProps {
   index: number;
 }
 
-const Card: React.FC<CardProps> = ({
+const ServiceProcessCard: React.FC<ServiceProcessCardProps> = ({
   title,
   description,
   icon: Icon,
@@ -35,4 +35,4 @@ const Card: React.FC<CardProps> = ({
   );
 };
 
-export default Card;
+export default ServiceProcessCard;

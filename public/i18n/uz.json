@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "services": "Xizmatlar",
+    "why_us": "Nega Aynan Biz",
+    "faq": "FAQ",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "heading": "Ishonchli Konditsioner Xizmatlari",
+    "paragraph": "Biz sizning uyingiz yoki biznesingiz uchun yuqori sifatli konditsioner o‘rnatish, tez va ishonchli ta’mirlash hamda samarali ishlashi uchun doimiy texnik xizmat ko‘rsatishni taklif qilamiz — yil bo‘yi qulaylik uchun."
+  },
+  "why_choose_us": {
+    "heading": "Nega bizni tanlashadi?",
+    "items": [
+      {
+        "title": "Sertifikatlangan Mutaxassislar",
+        "description": "Bizning tajribali HVAC mutaxassislarimiz barcha turdagi konditsionerlar bilan aniq va ishonchli ishlash uchun sertifikatlangan."
+      },
+      {
+        "title": "Tez va Ishonchli Xizmat",
+        "description": "Biz tezkor javob beramiz va qulayligingizni ta’minlash uchun ishonchli ta’mirlash va xizmat ko‘rsatamiz."
+      },
+      {
+        "title": "Energiya Tejamkorligi Mutaxassislari",
+        "description": "Sizning AC tizimingizni eng yaxshi holatda ishlashi va kamroq elektr sarfi uchun optimallashtiramiz."
+      }
+    ]
+  },
+  "services": {
+    "heading": "Bizning Xizmatlar",
+    "items": [
+      {
+        "title": "Konditsioner O‘rnatish",
+        "description": "Biz barcha turdagi konditsioner tizimlarini professional tarzda o‘rnatib beramiz, maksimal unumdorlik va energiya samaradorligini ta’minlaymiz."
+      },
+      {
+        "title": "Konditsioner Ta’mirlash",
+        "description": "Texniklarimiz muammolarni tez aniqlaydi va barcha brend va modellar bo‘yicha ta’mirlash ishlarini olib boradi."
+      },
+      {
+        "title": "Konditsionerga Texnik Xizmat",
+        "description": "Doimiy xizmat ko‘rsatish nosozliklarning oldini oladi va AC tizimingiz umrini uzaytiradi. Biz to‘liq diagnostika va sozlashni taklif qilamiz."
+      }
+    ]
+  },
+  "location": {
+    "heading": "Mahalliy Hududda Xizmat Ko‘rsatamiz",
+    "paragraph": "Biz mahalliy jamiyatga yuqori sifatli konditsioner xizmatlarini taqdim etamiz. O‘rnatish, ta’mirlash yoki texnik xizmat bo‘ladimi — biz har doim tayyormiz."
+  },
+  "faq": {
+    "heading": "Ko‘p So‘raladigan Savollar",
+    "items": [
+      {
+        "question": "Konditsionerimni qanchalik tez-tez tekshirishim kerak?",
+        "answer": "Biz yiliga kamida bir marta, issiq mavsum boshlanishidan oldin xizmat ko‘rsatishni tavsiya qilamiz."
+      },
+      {
+        "question": "Favqulodda ta’mirlash xizmatlari bormi?",
+        "answer": "Ha, biz sizning hududingizda 24/7 favqulodda ta’mirlash xizmatlarini taqdim etamiz."
+      },
+      {
+        "question": "Qaysi brendlar bilan ishlaysiz?",
+        "answer": "Biz LG, Samsung, Daikin, Carrier va boshqa yirik brendlar bilan ishlaymiz."
+      }
+    ]
+  },
+  "service_process": {
+    "heading": "Bizning 4 Bosqichli Xizmat Jarayonimiz",
+    "items": [
+      {
+        "title": "Biz bilan bog‘laning",
+        "description": "AC xizmatingizni rejalashtirish uchun bizga qo‘ng‘iroq qiling yoki shaklni to‘ldiring."
+      },
+      {
+        "title": "Tashxis qo‘yish",
+        "description": "Texnik mutaxassisimiz tizimingizni tekshiradi va muammoni tushuntiradi."
+      },
+      {
+        "title": "Xizmatni boshlaymiz",
+        "description": "Kerakli ta’mirlash, o‘rnatish yoki texnik xizmat ko‘rsatishni bajaramiz."
+      },
+      {
+        "title": "Qulaylikdan rohatlaning",
+        "description": "Ishonchli AC tizimi bilan salqin havodan bahramand bo‘ling."
+      }
+    ]
+  },
+  "footer": {
+    "title": "Sizning qulayligingiz — bizning vazifamiz. Har doim professional konditsioner xizmatlari.",
+    "copyright": "CoolAir Xizmati. Barcha huquqlar himoyalangan."
+  },
+  "button": {
+    "booking": "Xizmatga buyurtma berish"
+  }
+}

@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import NavLinks from "./NavLinks";
 import MobileMenuToggle from "./MobileMenuToggle";
 import MobileNav from "./MobileNav";
+import LanguageSelector from "../LanguageSelector/LanguageSelector";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -24,6 +25,9 @@ const Header: React.FC = () => {
 
       {/* Mobile nav */}
       <MobileNav isOpen={isMenuOpen} onLinkClick={closeMenu} />
+
+      {/* Language selector */}
+      <LanguageSelector />
     </header>
   );
 };

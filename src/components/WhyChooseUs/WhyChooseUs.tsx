@@ -1,41 +1,41 @@
 import React from "react";
 import Heading from "../ui/typography/Heading";
-import Card from "./Card";
 import { FaTools, FaClock, FaBolt } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+import WhyChooseUsCard from "./WhyChooseUsCard";
 
 const WhyChooseUs: React.FC = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
-      title: "Certified Technicians",
-      description:
-        "Our experienced HVAC specialists are fully certified to handle all brands and models of air conditioners with expert precision.",
+      title: t("why_choose_us.items.0.title"),
+      description: t("why_choose_us.items.0.description"),
       icon: FaTools,
     },
     {
-      title: "Fast & Reliable Service",
-      description:
-        "We respond quickly and deliver dependable repair and maintenance services to ensure your comfort is never compromised.",
+      title: t("why_choose_us.items.1.title"),
+      description: t("why_choose_us.items.1.description"),
       icon: FaClock,
     },
     {
-      title: "Energy Efficiency Experts",
-      description:
-        "We optimize your AC system for peak performance and lower energy bills, helping you stay cool and cost-effective.",
+      title: t("why_choose_us.items.2.title"),
+      description: t("why_choose_us.items.2.description"),
       icon: FaBolt,
     },
   ];
   return (
     <section id="why" className="bg-white py-16 px-6 text-center">
       <Heading level={2} className="mb-8">
-        Why Choose Us
+        {t("why_choose_us.heading")}
       </Heading>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {features.map((feature, index) => (
-          <Card
+        {features.map((item, index) => (
+          <WhyChooseUsCard
+            title={item.title}
+            description={item.description}
             key={index}
-            title={feature.title}
-            description={feature.description}
-            icon={feature.icon}
+            icon={item.icon}
           />
         ))}
       </div>

@@ -2,13 +2,17 @@ import React from "react";
 import Paragraph from "../ui/typography/Paragraph";
 import Heading from "../ui/typography/Heading";
 
-interface CardProps {
+interface WhyChooseUsCardProps {
   title: string;
   description: string;
   icon: React.ElementType;
 }
 
-const Card: React.FC<CardProps> = ({ title, description, icon: Icon }) => {
+const WhyChooseUsCard: React.FC<WhyChooseUsCardProps> = ({
+  title,
+  description,
+  icon: Icon,
+}) => {
   return (
     <div className="bg-white p-6">
       <div className="flex items-center mb-4">
@@ -22,4 +26,4 @@ const Card: React.FC<CardProps> = ({ title, description, icon: Icon }) => {
   );
 };
 
-export default Card;
+export default WhyChooseUsCard;

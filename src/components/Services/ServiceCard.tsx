@@ -1,12 +1,16 @@
 import type React from "react";
 
-interface CardProps {
+interface ServiceCardProps {
   icon: React.ElementType;
   title: string;
   description: string;
 }
 
-const Card: React.FC<CardProps> = ({ icon: Icon, title, description }) => {
+const ServiceCard: React.FC<ServiceCardProps> = ({
+  icon: Icon,
+  title,
+  description,
+}) => {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 text-center">
       <div className="text-primary mb-4">
@@ -18,4 +22,4 @@ const Card: React.FC<CardProps> = ({ icon: Icon, title, description }) => {
   );
 };
 
-export default Card;
+export default ServiceCard;

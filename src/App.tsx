@@ -4,10 +4,11 @@ import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Location from "./components/Location/Location";
-import FAQ from "./components/FAQ";
+import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer";
 import ServiceProcess from "./components/ServiceProcess.tsx/ServiceProcess";
 import LiveChat from "./components/LiveChat";
+import "./i18n";
 
 const App: React.FC = () => {
   return (

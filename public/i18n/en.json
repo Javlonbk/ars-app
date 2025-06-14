@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "services": "Services",
+    "why_us": "Why Us",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "heading": "Reliable Air Conditioner Services",
+    "paragraph": "We offer expert air conditioning installation, fast and reliable repair services, and ongoing maintenance to ensure optimal performance and comfort in your home or business — all year round."
+  },
+  "why_choose_us": {
+    "heading": "Why Choose Us?",
+    "items": [
+      {
+        "title": "Certified Technicians",
+        "description": "Our experienced HVAC specialists are fully certified to handle all brands and models of air conditioners with expert precision."
+      },
+      {
+        "title": "Fast & Reliable Service",
+        "description": "We respond quickly and deliver dependable repair and maintenance services to ensure your comfort is never compromised."
+      },
+      {
+        "title": "Energy Efficiency Experts",
+        "description": "We optimize your AC system for peak performance and lower energy bills, helping you stay cool and cost-effective."
+      }
+    ]
+  },
+  "services": {
+    "heading": "Our Services",
+    "items": [
+      {
+        "title": "AC Installation",
+        "description": "We provide expert installation of all types of air conditioning systems, ensuring maximum performance and energy efficiency from day one."
+      },
+      {
+        "title": "AC Repair",
+        "description": "Our technicians quickly diagnose and repair issues to restore your cooling system to peak condition, no matter the brand or model."
+      },
+      {
+        "title": "AC Maintenance",
+        "description": "Regular servicing helps prevent costly breakdowns and extends the life of your AC. We offer thorough checkups and tune-ups."
+      }
+    ]
+  },
+  "location": {
+    "heading": "Serving Your Local Area",
+    "paragraph": "We proudly serve the local community with top-notch air conditioning services. Whether you need installation, repair, or maintenance, our team is ready to assist you."
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How often should I service my AC?",
+        "answer": "We recommend at least once a year, preferably before the hot season starts."
+      },
+      {
+        "question": "Do you provide emergency repairs?",
+        "answer": "Yes, we offer 24/7 emergency AC repair services in your area."
+      },
+      {
+        "question": "What brands do you service?",
+        "answer": "We handle all major brands including LG, Samsung, Daikin, Carrier, and more."
+      }
+    ]
+  },
+  "service_process": {
+    "heading": "Our 4-Step Service Process",
+    "items": [
+      {
+        "title": "Contact Us",
+        "description": "Call or fill out our form to schedule your AC service."
+      },
+      {
+        "title": "Get a Diagnosis",
+        "description": "Our technician inspects your system and explains the issue."
+      },
+      {
+        "title": "Service Begins",
+        "description": "We perform the needed repairs, installation, or maintenance."
+      },
+      {
+        "title": "Enjoy the Comfort",
+        "description": "Relax and enjoy cool air with a reliable AC system."
+      }
+    ]
+  },
+  "footer": {
+    "title": "Your comfort is our mission. Expert air conditioner services anytime.",
+    "copyright": "CoolAir Service. All rights reserved."
+  },
+
+  "button": {
+    "booking": "Book a Service"
+  }
+}
